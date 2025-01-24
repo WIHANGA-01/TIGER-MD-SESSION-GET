@@ -16,16 +16,39 @@ const fs = require("fs-extra");
 const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
-┌───⭓『
-❒ *WASI-MD*
-❒ _NOW DEPLOY IT_
-└────────────⭓
-┌───⭓
-❒  • Chat with owner •
-❒ *GitHub:* __https://github.com/WASI-MD_
-❒ *Author:* _wa.me/923192173398_
-❒ *YT:* _https://youtube.com/@wasitech10_
-└────────────⭓
+*_⚠📌 Do not share this code with others._*
+
+*_pairing successfully  TIGER-MD_*
+
+*_Made With TIGER TEAM 👨🏼‍💻_*
+
+__________
+╔══════════════════════❯
+║ ⛬ WOW YOU CHOOSEN TIGER-MD ⛬
+╚══════════════════════❯
+╔════════════════════❯
+║  ❮••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••❯
+║➢  WhatsApp Group: ➖ https://chat.whatsapp.com/ITy3jSBaGPv9KZ2mTcvR9p
+
+║➢  WhatsApp Channel: ➖ https://whatsapp.com/channel/0029Vb352w8LNSa5GnqVkC3V
+╚════════════════════❯
+
+> TIGER TEAM ⛓‍💥
+
+👉🏻DINUKA
+👉🏻ANUHAS
+👉🏻SAPUMAL
+_________________________________
+
+> CONTACT NUMBERS
+
+
+👨🏼‍💻+94704322485
+👨🏼‍💻+94769611502
+👨🏼‍💻+94741576166
+
+
+_________________________
 `
 
 
