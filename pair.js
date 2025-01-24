@@ -54,12 +54,16 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'TIGER-MD' + b64data });
+               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'TIGER-MD==' + b64data });
 
                let GIFTED_MD_TEXT = `
-⚠️ Do not share this code with others. Pair Code Connecte TIGER-MD
-Made With TIGER TEAM
-__________________________
+*_⚠📌 Do not share this code with others._*
+
+*_pairing successfully  TIGER-MD_*
+
+*_Made With TIGER TEAM 👨🏼‍💻_*
+
+__________
 ╔══════════════════════❯
 ║ ⛬ WOW YOU CHOOSEN TIGER-MD ⛬
 ╚══════════════════════❯
@@ -70,11 +74,22 @@ __________________________
 ║➢  WhatsApp Channel: ➖ https://whatsapp.com/channel/0029Vb352w8LNSa5GnqVkC3V
 ╚════════════════════❯
 
-> TIGER TEAM 
-- DINUKA
-- ANUHAS
-- SAPUMAL
-_________________`
+> TIGER TEAM ⛓‍💥
+
+👉🏻DINUKA
+👉🏻ANUHAS
+👉🏻SAPUMAL
+_________________________________
+
+> CONTACT NUMBERS
+
+
+👨🏼‍💻+94704322485
+👨🏼‍💻+94769611502
+👨🏼‍💻+94741576166
+
+
+_________________________`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
