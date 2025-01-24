@@ -57,7 +57,24 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'TIGER-MD' + b64data });
 
                let GIFTED_MD_TEXT = `
-TIGER-MD SESSION`
+⚠️ Do not share this code with others. Pair Code Connecte TIGER-MD
+Made With TIGER TEAM
+__________________________
+╔══════════════════════❯
+║ ⛬ WOW YOU CHOOSEN TIGER-MD ⛬
+╚══════════════════════❯
+╔════════════════════❯
+║  ❮••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••❯
+║➢  WhatsApp Group: ➖ https://chat.whatsapp.com/ITy3jSBaGPv9KZ2mTcvR9p
+
+║➢  WhatsApp Channel: ➖ https://whatsapp.com/channel/0029Vb352w8LNSa5GnqVkC3V
+╚════════════════════❯
+
+> TIGER TEAM 
+- DINUKA
+- ANUHAS
+- SAPUMAL
+_________________`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
